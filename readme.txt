@@ -15,7 +15,7 @@ Vertical Admin Bar displays the WordPress toolbar vertically on the left of the 
 </p>
 
 <p>
-At present, the height of the admin bar has been set to 740px. That should be enough for most menus to display correctly. If you need to override this value, do not change it in your code. Instead, add the **vab_admin_bar_height** filter in the functions.php of your theme. For example, to set a height of 1024, use the following code:
+At present, the height of the admin bar has been set to 740px. That should be enough for most menus to display correctly. If you need to override this value, do not change it in your code. Instead, add the <strong>vab_admin_bar_height</strong> filter in the functions.php of your theme. For example, to set a height of 1024, use the following code:
 `function my_function_callback() { return 1024; }`
 `add_filter( 'vab_admin_bar_height', 'my_function_callback' );`
 </p>
